@@ -1,1 +1,6 @@
-build/
+# CMake output directory
+[Bb]uild/
+[Oo]ut/
+
+# Visual Studio cache directory
+.vs/

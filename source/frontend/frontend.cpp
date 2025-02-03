@@ -1,7 +1,6 @@
 #include <iostream>
 
-// Declare the backend function
-void backend_function();
+#include "backend.hpp"
 
 int main() {
     std::cout << "Frontend is calling backend...\n";
