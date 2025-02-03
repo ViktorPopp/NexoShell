@@ -1,5 +1,5 @@
 mkdir build
 cd build
 cmake ..
-devenv.exe NexoShell.sln /build Release
+msbuild NexoShell.sln /p:Configuration=Release
 echo "Executable is placed in: build\source\frontend\Release\frontend.exe
